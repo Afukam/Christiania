@@ -85,7 +85,7 @@ def send_email(api_key, sender, recipient, subject, body, attachment_file):
 
 
 def main():
-    parser = argparse.ArgumentParser(description='Vulnerability Scan Tool by Abraham E. Tanta')
+    parser = argparse.ArgumentParser(description='Vulnerability Scan Tool')
     parser.add_argument('-t', '--target', help='IP or URL to scan')
     parser.add_argument('-f', '--target-file', help='Path to target.txt file')
     parser.add_argument('-k', '--sendgrid-api-key', help='SendGrid API key')
